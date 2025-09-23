@@ -11,8 +11,9 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update \
     # Installation des dépendances minimales
     && apt-get install -y --no-install-recommends \
-       python3 \
-       systemd \
+        python3 \
+        systemd \
+        systemd-sysv \
     # Nettoyage complet des caches et fichiers temporaires
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* \
