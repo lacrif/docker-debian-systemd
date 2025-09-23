@@ -20,7 +20,7 @@ Connaissances de base d'Ansible et Docker
 docker pull lacrif/debian-systemd:<version>
 ```
 
-Remplacez <version> par la version souhaitée : 'bookworm-slim','bookworm','trixie','trixie-slim'
+Remplacez <version> par la version souhaitée : 'bookworm','trixie'
 
 ## Utilisation
 

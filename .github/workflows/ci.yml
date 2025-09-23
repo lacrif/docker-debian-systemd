@@ -12,7 +12,7 @@ jobs:
     runs-on: 'ubuntu-latest'
     strategy:
       matrix:
-        version: ['bookworm-slim','bookworm','trixie','trixie-slim']
+        version: ['bookworm','trixie']
     steps:
       - uses: 'actions/checkout@v2'
       - uses: 'docker/setup-qemu-action@v1'
